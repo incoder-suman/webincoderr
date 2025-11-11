@@ -56,8 +56,8 @@ export default function ContactSection() {
           </p>
 
           <ul className="mt-8 space-y-3 text-slate-700 dark:text-slate-300">
-            <li>📍 Near Dwarka mor, New Delhi, India</li>
-            <li>📧 infor@webincoder.com</li>
+            <li>📍 Near Dwarka Mor Metro Station, Roshan Garden, Bhagwati Garden, Nawada, New Delhi, 110059</li>
+            <li>📧 info@webincoder.com</li>
             <li>📧 webincoder3@gmail.com</li>
             <li>📞 +91 9310640513</li>
           </ul>
