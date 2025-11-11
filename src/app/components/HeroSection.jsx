@@ -67,12 +67,13 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* ---- SMOOTH WAVE ---- */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none rotate-180">
+      {/* ---- FIXED SMOOTH WAVE ---- */}
+      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180 bg-white">
         <svg
           viewBox="0 0 1440 120"
           xmlns="http://www.w3.org/2000/svg"
-          className="relative block w-[calc(100%+1.3px)] h-[100px]"
+          preserveAspectRatio="none"
+          className="block w-full h-[120px]"
         >
           <path
             fill="#ffffff"
