@@ -8,7 +8,7 @@ export default function HeroSection() {
       id="hero"
       className="relative isolate overflow-hidden bg-gradient-to-b from-[#0099FF] via-[#00CFFF] to-[#00AEEF] dark:from-[#0F172A] dark:via-[#004F88] dark:to-[#007BFF] text-white"
     >
-      {/* optional subtle pattern */}
+      {/* subtle pattern */}
       <div className="absolute inset-0 -z-10 bg-[url('/grid.svg')] opacity-10" />
 
       <div className="mx-auto max-w-7xl px-6 py-24 md:py-32 lg:flex lg:items-center lg:gap-16">
@@ -67,13 +67,13 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* ---- BLUE GRADIENT WAVE (FIXED + FULL WIDTH) ---- */}
-      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180 mt-10">
+      {/* ---- FIXED SMOOTH WAVE (BLENDED & RESPONSIVE) ---- */}
+      <div className="absolute bottom-[-1px] left-0 w-full overflow-hidden leading-none rotate-180">
         <svg
-          viewBox="0 0 1440 120"
+          viewBox="0 0 1440 140"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
-          className="block w-full h-[130px]"
+          className="block w-full h-[140px]"
         >
           <defs>
             <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
@@ -87,6 +87,9 @@ export default function HeroSection() {
           />
         </svg>
       </div>
+
+      {/* subtle white fade overlay for clean transition */}
+      <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-b from-transparent to-white"></div>
     </section>
   );
 }
