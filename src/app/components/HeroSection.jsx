@@ -67,16 +67,22 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* ---- FIXED SMOOTH WAVE ---- */}
-      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180 bg-white">
+      {/* ---- BLUE GRADIENT WAVE (FIXED + FULL WIDTH) ---- */}
+      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180">
         <svg
           viewBox="0 0 1440 120"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
-          className="block w-full h-[120px]"
+          className="block w-full h-[130px]"
         >
+          <defs>
+            <linearGradient id="waveGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#00AEEF" />
+              <stop offset="100%" stopColor="#007BFF" />
+            </linearGradient>
+          </defs>
           <path
-            fill="#ffffff"
+            fill="url(#waveGradient)"
             d="M0,64L60,53.3C120,43,240,21,360,26.7C480,32,600,64,720,85.3C840,107,960,117,1080,122.7C1200,128,1320,128,1380,128H1440V0H1380C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0H0Z"
           />
         </svg>
