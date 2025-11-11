@@ -68,7 +68,7 @@ export default function HeroSection() {
       </div>
 
       {/* ---- BLUE GRADIENT WAVE (FIXED + FULL WIDTH) ---- */}
-      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180">
+      <div className="absolute bottom-0 left-0 w-screen overflow-hidden leading-none rotate-180 mt-10">
         <svg
           viewBox="0 0 1440 120"
           xmlns="http://www.w3.org/2000/svg"
