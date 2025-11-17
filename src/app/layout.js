@@ -49,8 +49,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-
-    
+    <head>
     // Google Tag Manager
 <script id="gtm-head" strategy="beforeInteractive">
   {`
@@ -62,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 `}
 </script>
  // End Google Tag Manager 
-
+  </head>
     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F8FAFC] dark:bg-[#0F172A] text-[#1E293B] dark:text-[#E2E8F0] transition-colors duration-300`}
