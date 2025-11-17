@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://www.webincoder.com/services',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
    {
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
    {
       url: 'https://www.webincoder.com/contact',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
   ]
