@@ -59,7 +59,7 @@ export default function ContactSection() {
             <li>📍 Near Dwarka Mor Metro Station, Roshan Garden, Bhagwati Garden, Nawada, New Delhi, 110059</li>
             <li>📧 info@webincoder.com</li>
             <li>📧 webincoder3@gmail.com</li>
-            <li>📞 +91 9310640513</li>
+            <li>📞 +91 9599580400</li>
           </ul>
         </motion.div>
 
