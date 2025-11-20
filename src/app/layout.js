@@ -19,17 +19,17 @@ export const metadata = {
   verification: {
     google: "7TguKs5Jx0CGeBHr4NMn5dMQXLjk4dyIKWJdmSvRe5Jk",
   },
-  title: "Webincoder | Web Development & Digital Marketing Agency",
+  title: "Web & Digital Marketing Agency in Delhi | Webincoder",
   description:
-    "Webincoder builds responsive websites, CRM, and performance marketing campaigns that convert. Trusted web & SEO agency serving Delhi NCR and Pan India.",
+    "Webincoder is a leading Web & Digital Marketing Agency in Delhi, offering website development, SEO, PPC, and branding solutions to help businesses grow online.",
   keywords:
-    "web development, digital marketing, seo agency, webincoder, delhi web agency, nextjs websites, wordpress design, branding, web design company",
+    "web development, Digital Marketing Services, SEO agency, Webincoder, delhi web agency, nextjs websites, wordpress design, branding, Website Design Services in Delhi",
 
   openGraph: {
-    title: "Webincoder — Build Fast. Rank Fast. Grow Faster.",
+    title: "Web & Digital Marketing Agency in Delhi | Webincoder",
     description:
-      "A modern web & digital agency delivering ROI-focused websites, SEO, and branding for Indian businesses.",
-    url: "https://webincoder.com",
+      "Webincoder is a leading Web & Digital Marketing Agency in Delhi, offering website development, SEO, PPC, and branding solutions to help businesses grow online.",
+    url: "https://www.webincoder.com/",
     type: "website",
     images: [
       {
