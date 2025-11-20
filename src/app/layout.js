@@ -51,6 +51,17 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "WebInCoder",
+  "alternateName": "WebInCoder",
+  "url": "https://www.webincoder.com/",
+  "logo": "https://www.webincoder.com/_next/image?url=%2Flogo.png&w=48&q=75",
+  "sameAs": [
+    "https://www.facebook.com/people/Webincoder/61576246542051/",
+    "https://www.instagram.com/webincoder/"
+  };
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
