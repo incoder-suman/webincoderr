@@ -61,6 +61,7 @@ export default function RootLayout({ children }) {
   "sameAs": [
     "https://www.facebook.com/people/Webincoder/61576246542051/",
     "https://www.instagram.com/webincoder/"
+    ]
   };
   return (
     <html lang="en" suppressHydrationWarning>
