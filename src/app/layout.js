@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 
 export const metadata = {
+  verification: {
+    google: "7TguKs5Jx0CGeBHr4NMn5dMQXLjk4dyIKWJdmSvRe5Jk",
+  },
   title: "Webincoder | Web Development & Digital Marketing Agency",
   description:
     "Webincoder builds responsive websites, CRM, and performance marketing campaigns that convert. Trusted web & SEO agency serving Delhi NCR and Pan India.",
